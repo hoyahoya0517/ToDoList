@@ -46,15 +46,10 @@ function savedToDoList() {
 function quotesHidden() {
     const tempQuotes = localStorage.getItem("todolist");
     const templist = JSON.parse(tempQuotes);
-    const HIDDEN_QUOTES = document.querySelector("#quotes");
     if(templist.length >= 5){
-        $( '#quotes' ).slideUp("slow");
-        setTimeout(() => {
-            HIDDEN_QUOTES.classList.add("hidden");
-        }, 1000);
+        $( '#quotes' ).fadeOut("slow");
     } else {
-        HIDDEN_QUOTES.classList.remove("hidden");
-        $( '#quotes' ).slideDown("slow");
+        $( '#quotes' ).fadeIn("slow");
     }
 }
 
