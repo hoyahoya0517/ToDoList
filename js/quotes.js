@@ -36,10 +36,6 @@ const quotes = [
         kor : "사랑보다 더 큰 고통이 있나요?",
         author : "Love Actually, 2003"
     },{
-        quote : "我也很喜欢当年喜欢你的我.你永远，是我眼中的苹果.",
-        kor : "나도 널 좋아하던 그 시절의 내가 좋아. 넌 영원히 내 눈 속의 사과야.",
-        author : "You Are the Apple of My Eye, 2011"
-    },{
         quote : "\n",
         kor : "늦었다고 생각할 때가 진짜 너무 늦었다",
         author : "Park Myung Soo"
