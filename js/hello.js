@@ -16,7 +16,7 @@ const swalWithBootstrapButtons = Swal.mixin({
 function helloName() {
     const savedUsername = localStorage.getItem(USERNAME_KEY);
     helloname.innerText = `Hello ${savedUsername}`;
-    $('#helloname').fadeIn(1500);
+    $('#helloname').fadeIn(2000);
     helloname.classList.remove(HIDDEN);
     $('#del').fadeIn(800);
     del.classList.remove(HIDDEN);
@@ -70,6 +70,4 @@ if(local === null) {
     del.classList.remove(HIDDEN);
     del.addEventListener("click", DelName);
 }
-
-
   
