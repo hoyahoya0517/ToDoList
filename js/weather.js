@@ -7,11 +7,12 @@ function onGeoOk(position) {
     fetch(url)
     .then(response => response.json())
     .then(data => {
-        const city = document.querySelector("#weather span:first-child");
-        const weather = document.querySelector("#weather span:last-child");
-
-        city.innerText = data.name;
-        weather.innerText = `/ ${data.weather[0].main} ${data.main.temp}`;
+        const weather = document.querySelector("#weather")
+        const weather_span = document.querySelector("#weather span");
+        weather.style.top = "5%";
+        weather.style.left = "6%";
+        weather_span.innerText = `${data.weather[0].main} / ${data.main.temp} ℃\n ${data.name} `;
+        
     }); 
 }
 function onGeoError() {
@@ -24,4 +25,3 @@ function onGeoError() {
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk,onGeoError)
-
