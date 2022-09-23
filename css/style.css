@@ -74,7 +74,7 @@ body {
 #clockstatic {
     margin:0;
     position: absolute;
-    top: 0%;
+    top: -1%;
     left: 50%;
     transform: translate(-50%, -50%);
     width:700px;
