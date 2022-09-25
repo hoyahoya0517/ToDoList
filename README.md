@@ -1,6 +1,8 @@
 # todolist
 # https://hoyahoya0517.github.io/todolist/
 
+HTML CSS 바닐라JAVASCRIPT 를 이용하여 투두리스트 사이트를 제작
+
 <h3>2022.09.18 업로드</h3>
 
 보완해야 될 점 : 리스트가 5개가 넘어가면 명언이 사라짐
