@@ -9,6 +9,8 @@
 HTML<br>
 CSS<br>
 바닐라 javascript<br>
+jquery<br>
+SweetAlert2<br>
 # Link
 https://hoyahoya0517.github.io/todolist/
 # Update
