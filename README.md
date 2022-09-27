@@ -1,4 +1,4 @@
-# ToDoList
+<img src="https://img.shields.io/badge/Todoist-E44332?style=flat-square&logo=Todoist&logoColor=white"/># ToDoList
 오늘 할 일을 쉽게 확인할 수 있는 웹페이지입니다.
 # Features
 오늘 할 일을 쉽게 작성 가능<br>
