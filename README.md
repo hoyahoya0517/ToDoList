@@ -8,7 +8,7 @@
 # Skills & Tech Stack
 HTML<br>
 CSS<br>
-바닐라 javascript<br>
+javascript<br>
 jquery<br>
 SweetAlert2<br>
 # Link
